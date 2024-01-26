@@ -1,0 +1,21 @@
+{
+  "name": "Liquor-Theme",
+  "displayName": "Liquor Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "liquor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/liquor-color-theme.json"
+      }
+    ]
+  }
+}
