@@ -1,16 +1,11 @@
-# liquor-theme README
+<h1 align="center">Liquor Theme</h1>
 
-## Working with Markdown
+<p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=gen9009.Liquor-Theme" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/gen9009.Liquor-Theme.svg?color=f8d566&label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+<p align="center">一款</p>
+<p align="center">服务前端</p>
+<p align="center">黄蓝配色</p>
+<p align="center">的</p>
+<p align="center">暗色主题</p>
