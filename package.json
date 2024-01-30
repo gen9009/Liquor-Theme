@@ -1,5 +1,7 @@
 {
+  "publisher": "gen9009",
   "name": "Liquor-Theme",
+  "icon": "icon.png",
   "displayName": "Liquor Theme",
   "description": "",
   "version": "0.0.1",
@@ -8,6 +10,15 @@
   },
   "categories": [
     "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gen9009/Liquor-Theme"
+  },
+  "keywords": [
+    "theme",
+    "Liquor",
+    "gen9009"
   ],
   "contributes": {
     "themes": [
