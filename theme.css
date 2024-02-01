@@ -15,12 +15,12 @@
 
   --yellow-1: #7b6a37;
   --yellow-2: #9f8947;
-  --yellow-3: #b59c51;
+  --yellow-3: #c5a956;
   --yellow-4: #d0b45d;
   --yellow-5: #ccb25e;
   --yellow-6: #f8d566;
 
-  --og-1: #9a613c;
+  --og-1: #a9663a;
   --og-2: #ca7b5b;
 
   --purple-1: #8873b3;
@@ -33,8 +33,8 @@
   --green-1: #5e9177;
 
   --gray-1: #434343;
-  --gray-1: #6b6b6b;
-  --gray-1: #878686;
+  --gray-2: #6b6b6b;
+  --gray-3: #878686;
 
   --variable: 'yellow';
   --function: 'blue';

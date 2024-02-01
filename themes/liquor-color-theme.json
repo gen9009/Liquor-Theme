@@ -222,7 +222,7 @@
     },
     {
       "name": "Keyword Control",
-      "scope": ["keyword.control.import", "keyword.control.from", "keyword.control.export","support.type.object.module"],
+      "scope": ["keyword.control.import", "keyword.control.from", "keyword.control.export", "support.type.object.module"],
       "settings": {
         "foreground": "#6a82a5"
       }
@@ -238,42 +238,49 @@
       "name": "Variable Other",
       "scope": ["variable.other"],
       "settings": {
-        "foreground": "#b59c51"
+        "foreground": "#c5a956"
       }
     },
     {
       "name": "Variable Other Object",
       "scope": ["variable.other.object"],
       "settings": {
-        "foreground": "#ccb25e"
+        "foreground": "#c5a956"
       }
     },
     {
       "name": "Variable Other Constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#b59c51"
+        "foreground": "#c5a956"
       }
     },
     {
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#ca7b5b"
+        "foreground": "#9f8947"
       }
     },
     {
       "name": "Function",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#b38a60"
+        "foreground": "#ca7b5b"
+      }
+    },
+    {
+      "name": "Function.member",
+      "scope": "entity.name.function.member",
+      "settings": {
+        "foreground": "#aa6c42"
       }
     },
     {
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#9f8947"
+        "foreground": "#6a82a5"
       }
     },
     {
@@ -301,7 +308,7 @@
       "name": "js/ts ",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
-        "foreground": "#b96550"
+        "foreground": "#80a1cb"
       }
     },
     {
@@ -326,7 +333,7 @@
     // CSS - START
     {
       "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class","entity.other.attribute-name.class"],
+      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class", "entity.other.attribute-name.class"],
       "settings": {
         "foreground": "#9f8947"
       }
@@ -367,19 +374,26 @@
         "foreground": "#8873b3"
       }
     },
-    
 
-      {
+    {
       "name": "Constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#9a613c"
+        "foreground": "#aa6c42"
+      }
+    },
+    // 
+    {
+      "name": "Variable Css",
+      "scope": "variable.css,variable.scss,variable.less",
+      "settings": {
+        "foreground": "#c5a956"
       }
     },
     // CSS - END
 
     // HTML - START
- 
+
     {
       "name": "Tags",
       "scope": "entity.name.tag",
@@ -394,11 +408,11 @@
         "foreground": "#80a1cb"
       }
     },
-       {
+    {
       "name": "Punctuation",
       "scope": "punctuation.separator,punctuation.attribute-shorthand",
       "settings": {
-        "foreground": "#434343"
+        "foreground": "#6b6b6b"
       }
     },
     // HTML - END
@@ -414,8 +428,8 @@
     // VUE - END
 
     // JSON - START
-   
-     {
+
+    {
       "name": "Attribute JSON",
       "scope": "support.type.property-name.json",
       "settings": {
