@@ -84,32 +84,32 @@
     "editorBracketHighlight.foreground1": "#b7972d",
     "editorBracketHighlight.foreground2": "#c46c4c",
     "editorBracketHighlight.foreground3": "#f8d566",
-    "editorBracketHighlight.foreground4": "#5a8b72",
-    "editorBracketHighlight.foreground5": "#9257af",
+    "editorBracketHighlight.foreground4": "#9257af",
+    "editorBracketHighlight.foreground5": "#5a8b72",
     "editorBracketHighlight.foreground6": "#cf4e64",
     "editorBracketPairGuide.activeBackground1": "#b7972d",
     "editorBracketPairGuide.activeBackground2": "#c46c4c",
     "editorBracketPairGuide.activeBackground3": "#f8d566",
-    "editorBracketPairGuide.activeBackground4": "#5a8b72",
-    "editorBracketPairGuide.activeBackground5": "#9257af",
+    "editorBracketPairGuide.activeBackground5": "#5a8b72",
+    "editorBracketPairGuide.activeBackground4": "#9257af",
     "editorBracketPairGuide.activeBackground6": "#cf4e64",
-    "editorBracketPairGuide.background1": "#b7972d",
-    "editorBracketPairGuide.background2": "#c46c4c",
-    "editorBracketPairGuide.background3": "#f8d566",
-    "editorBracketPairGuide.background4": "#5a8b72",
-    "editorBracketPairGuide.background5": "#9257af",
-    "editorBracketPairGuide.background6": "#cf4e64",
+    // "editorBracketPairGuide.background1": "#b7972d",
+    // "editorBracketPairGuide.background2": "#c46c4c",
+    // "editorBracketPairGuide.background3": "#f8d566",
+    // "editorBracketPairGuide.background5": "#5a8b72",
+    // "editorBracketPairGuide.background4": "#9257af",
+    // "editorBracketPairGuide.background6": "#cf4e64",
     "editorIndentGuide.activeBackground1": "#b7972d",
     "editorIndentGuide.activeBackground2": "#c46c4c",
     "editorIndentGuide.activeBackground3": "#f8d566",
-    "editorIndentGuide.activeBackground4": "#5a8b72",
-    "editorIndentGuide.activeBackground5": "#9257af",
+    "editorIndentGuide.activeBackground5": "#5a8b72",
+    "editorIndentGuide.activeBackground4": "#9257af",
     "editorIndentGuide.activeBackground6": "#cf4e64",
     "editorIndentGuide.background1": "#b7972d",
     "editorIndentGuide.background2": "#c46c4c",
     "editorIndentGuide.background3": "#f8d566",
-    "editorIndentGuide.background4": "#5a8b72",
-    "editorIndentGuide.background5": "#9257af",
+    "editorIndentGuide.background5": "#5a8b72",
+    "editorIndentGuide.background4": "#9257af",
     "editorIndentGuide.background6": "#cf4e64",
     "breadcrumb.background": "#131313",
     "breadcrumb.foreground": "#52575f",
@@ -333,7 +333,7 @@
     // CSS - START
     {
       "name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
-      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class", "entity.other.attribute-name.class"],
+      "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class", "entity.other.attribute-name.class", "meta.attribute-selector.scss"],
       "settings": {
         "foreground": "#9f8947"
       }
@@ -348,7 +348,7 @@
 
     {
       "name": "Support type",
-      "scope": "support.type.property-name.css,meta.property-value.css",
+      "scope": "support.type.property-name.css,meta.property-value.css,meta.property-name.css",
       "settings": {
         "foreground": "#80a1cb"
       }
@@ -374,18 +374,30 @@
         "foreground": "#8873b3"
       }
     },
-
     {
       "name": "Constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#aa6c42"
+        "foreground": "#9F8947"
       }
     },
-    // 
+    {
+      "name": "Constant",
+      "scope": "support.constant.property-value",
+      "settings": {
+        "foreground": "#CA7B5B"
+      }
+    },
     {
       "name": "Variable Css",
       "scope": "variable.css,variable.scss,variable.less",
+      "settings": {
+        "foreground": "#c5a956"
+      }
+    },
+    {
+      "name": "Selector Css",
+      "scope": "list.end.bracket.curly.scss,list.begin.bracket.curly.scss",
       "settings": {
         "foreground": "#c5a956"
       }
@@ -442,6 +454,13 @@
       "scope": " source.ignore",
       "settings": {
         "foreground": "#878686"
+      }
+    },
+    {
+      "name": "Other",
+      "scope": "keyword.other",
+      "settings": {
+        "foreground": "#8873b3"
       }
     }
   ],
