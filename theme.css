@@ -9,6 +9,7 @@
   --border-3: #222222;
   --border-4: #333333;
   --border-4: #444444;
+  --dark-text: #aeaeae;
   --text-op-bg: #af513a85;
 
   --activity-border: #9a603c;
@@ -34,7 +35,7 @@
 
   --gray-1: #434343;
   --gray-2: #6b6b6b;
-  --gray-3: #878686;
+  --gray-3: #000000;
 
   --variable: 'yellow';
   --function: 'blue';

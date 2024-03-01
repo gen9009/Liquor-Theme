@@ -440,7 +440,6 @@
     // VUE - END
 
     // JSON - START
-
     {
       "name": "Attribute JSON",
       "scope": "support.type.property-name.json",
@@ -449,6 +448,64 @@
       }
     },
     // JSON - END
+    // Markdown - START
+    {
+      "name": "Markup.heading.Markdown",
+      "scope": "heading.1.markdown",
+      "settings": {
+        "foreground": "#83b5f7"
+      }
+    },
+    {
+      "name": "Markup.heading.Markdown",
+      "scope": "heading.2.markdown",
+      "settings": {
+        "foreground": "#80a1cb"
+      }
+    },
+    {
+      "name": "Markup.heading.Markdown",
+      "scope": "heading.3.markdown",
+      "settings": {
+        "foreground": "#6a82a5"
+      }
+    },
+    {
+      "name": "Markup.heading.Markdown",
+      "scope": "heading.4.markdown",
+      "settings": {
+        "foreground": "#6a82a5"
+      }
+    },
+    {
+      "name": "Markup.heading.Markdown",
+      "scope": "heading.5.markdown",
+      "settings": {
+        "foreground": "#6a82a5"
+      }
+    },
+    {
+      "name": "unnumbered",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#ccb25e"
+      }
+    },
+    {
+      "name": "markup.list",
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#5e9177"
+      }
+    },
+    {
+      "name": "meta.paragraph.markdown",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#aeaeae"
+      }
+    },
+    // Markdown - END
     {
       "name": "Ignore",
       "scope": " source.ignore",
